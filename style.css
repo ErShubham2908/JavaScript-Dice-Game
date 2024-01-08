@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right , black, blue);
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.container img{
+    width: 2.5em;
+    position: relative;
+    left: 35rem;
+    top: .7em;
+}
+
+.container h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    left: 38rem;
+    top: .5em;
+}
+
+.box{
+    width: 60%;
+    height: 70vh;
+    position: absolute;
+    top: 70px;
+    left: 270px;
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side, .left-side{
+    width: 48%;
+    height: 40vh;
+    border-radius: .5em;
+    box-shadow: 4px 4px 4px black;
+    background-image:radial-gradient(white,rgba(180, 178, 178, 0.685));
+}
+
+.right-side input[type="text"], .left-side input[type="text"]{
+    width: 80%;
+    height: 6vh;
+    position: relative;
+    left: 2em;
+    top: .5em;
+    border: 2px white solid;
+    color: green;
+    font-size: 1.4em;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.right-side input[value="Sumbit"], .left-side input[value="Sumbit"]{
+    width: 6rem;
+    height: 3rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 1.5rem;
+    left: 10rem;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: .45rem;
+    box-shadow: 3px 5px 5px gray;
+    
+}
+
+#firstplayerheading{
+    color: red;
+    font-size:2em;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: .3em;
+    left: .3em;
+}
+
+#firstplayerimage, #secondplayerimage{
+    width: 5rem;
+    position: sticky;
+    top: 15rem;
+    left: 25rem;
+}
+
+::placeholder{
+    color: Red;
+    font-weight: 500;
+}
+
+#secondplayerheading{
+    color: green;
+    position: relative;
+    top: .3em;
+    left: 1em;
+}
+
+.dicevalueone{
+    color: white;
+}
+
+.dicevaluetwo{
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    z-index: 3;
+}
+
+#secondplayerimage{
+    position: sticky;
+    /* top: 3rem; */
+    left: 52rem;
+}
+
+.diceroll{
+    width: 11rem;
+    height: 6vh;
+    border: 2px white solid;
+    position: relative;
+    top: 25rem;
+    left: 37rem;
+    font-weight: 800;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 3px 5px 15px black;
+    border-radius: 0.4rem;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.result{
+    width: 11rem;
+    /* height: 6vh; */
+    border: 2px white solid;
+    position: absolute;
+    top: 36rem;
+    left: 40rem;
+    font-weight: 800;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 3px 5px 15px black;
+    border-radius: 0.4rem;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.newgame{
+    width: 20rem;
+    height: 6vh;
+    border: 2px white solid;
+    position: absolute;
+    top: 4rem;
+    left: 35rem;
+    font-weight: 800;
+    box-shadow: 3px 5px 15px black;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-size: 25px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.rule{
+    position: absolute;
+    top: 30rem;
+    left: .5rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.winner{
+    width: 50%;
+    height: 3rem;
+    color: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 17rem;
+    left: 25rem;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.new{
+    width: 100%;
+    height: 3rem;
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+    position: absolute;
+    top: 30rem;
+    text-align: center;
+}
